@@ -1,16 +1,12 @@
 import Icon from "@mdi/react";
 import { mdiMagnify } from "@mdi/js";
+import Logo from "../logo";
 
 export default function Header() {
   return (
     <header className="bg-black py-6 lg:py-12 text-gega-gray uppercase">
       <div className="container flex items-center justify-between space-x-8 lg:space-x-16">
-        <a
-          href="#"
-          className="pl-4 md:pl-0 text-4xl lg:text-6xl font-bold text-transparent bg-gradient-to-r from-gega-red to-gega-gray bg-clip-text"
-        >
-          Gega
-        </a>
+        <Logo/>
         <div className="block md:hidden">
             <div className="space-y-1 cursor-pointer pr-4">
                 <div className="bg-gega-gray w-8 h-1 rounded-full"></div>
@@ -22,31 +18,31 @@ export default function Header() {
           <div className="flex items-center lg:text-lg space-x-4 lg:space-x-8">
             <a
               href="#"
-              className="hover:text-gega-melon transition duration-200"
+              className="hover:text-gega-melon transition duration-500"
             >
               Movies
             </a>
             <a
               href="#"
-              className="hover:text-gega-melon transition duration-200"
+              className="hover:text-gega-melon transition duration-500"
             >
               Celebrities
             </a>
             <a
               href="#"
-              className="hover:text-gega-melon transition duration-200"
+              className="hover:text-gega-melon transition duration-500"
             >
               Blog
             </a>
             <a
               href="#"
-              className="hover:text-gega-melon transition duration-200"
+              className="hover:text-gega-melon transition duration-500"
             >
               News
             </a>
             <a
               href="#"
-              className="hover:text-gega-melon transition duration-200"
+              className="hover:text-gega-melon transition duration-500"
             >
               About
             </a>
@@ -57,13 +53,13 @@ export default function Header() {
                 <input
                   type="text"
                   className=" opacity-0 group-hover:opacity-100 bg-transparent border-b border-gega-red focus:outline-none  
-                  w-24 lg:w-44 transition duration-200"
+                  w-24 lg:w-44 transition duration-500"
                 />
-                <button className="-ml-4 group-hover:ml-0 transition duration-200">
+                <button className="-ml-4 group-hover:ml-0 transition duration-500">
                   <Icon
                     path={mdiMagnify}
                     size={1}
-                    className="group-hover:text-gega-red transition duration-200"
+                    className="group-hover:text-gega-red transition duration-500"
                   />
                 </button>
               </div>
@@ -73,7 +69,7 @@ export default function Header() {
               <a
                 href="#"
                 className="bg-gega-red px-3 py-1 hover:bg-rose-600
-                cursor-pointer transition duration-200 whitespace-nowrap
+                cursor-pointer transition duration-500 whitespace-nowrap
                 "
               >
                 Sign Up

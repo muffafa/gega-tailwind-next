@@ -4,6 +4,7 @@ import Hero from "@/components/hero";
 import Movies from "@/components/movies";
 import Matrix from "@/components/matrix";
 import Blogs from "@/components/blogs";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Movies />
       <Matrix />
       <Blogs />
+      <Footer />
     </>
   );
 }

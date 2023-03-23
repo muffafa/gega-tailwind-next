@@ -3,6 +3,7 @@ import Header from "@/components/header";
 import Hero from "@/components/hero";
 import Movies from "@/components/movies";
 import Matrix from "@/components/matrix";
+import Blogs from "@/components/blogs";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Hero />
       <Movies />
       <Matrix />
+      <Blogs />
     </>
   );
 }

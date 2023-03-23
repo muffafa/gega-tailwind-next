@@ -15,7 +15,7 @@ interface Props {
 }
 
 const BlogCard: NextPage<Props> = ({like, comment, date, userAvatar, userName, blogText, colSpan = "col-span-6 md:col-span-3"}) => {
-    const className: string = `${colSpan} border border-gega-red w-3/4 md:w-full`;
+    const className: string = `${colSpan} border border-gega-red`;
   return(
     <div className={className}>
     <div className="border-b border-gega-red p-4 flex items-center justify-between">

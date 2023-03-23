@@ -48,28 +48,28 @@ export default function Movies() {
             />
             <Movie
               movieName="2049"
-              movieText="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui,mollitia?"
+              movieText="Lorem ipsum, dolor sit amet consectetur adipisicing elit."
               moviePhoto={mv4}
             />
             <Movie
               movieName="The Forest"
-              movieText="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui,mollitia?"
+              movieText="Lorem ipsum, dolor sit amet consectetur adipisicing elit."
               moviePhoto={mv5}
             />
             <Movie
               movieName="Skyfall"
-              movieText="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui,mollitia?"
+              movieText="Lorem ipsum, dolor sit amet consectetur adipisicing elit."
               moviePhoto={mv6}
             />
             <Movie
               movieName="Oblivion"
-              movieText="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui,mollitia?"
+              movieText="Lorem ipsum, dolor sit amet consectetur adipisicing elit."
               moviePhoto={mv1}
               specialClassName="hidden md:block lg:hidden"
             />
             <Movie
               movieName="Into The Wild"
-              movieText="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui,mollitia?"
+              movieText="Lorem ipsum, dolor sit amet consectetur adipisicing elit."
               moviePhoto={mv2}
               specialClassName="hidden md:block lg:hidden"
             />

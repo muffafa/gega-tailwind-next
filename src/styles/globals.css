@@ -9,6 +9,10 @@
     @apply font-gemunuLibre uppercase;
   }
 
+  h2 {
+    @apply text-2xl tracking-wider; 
+  }
+
   a {
     @apply font-gemunuLibre;
   }

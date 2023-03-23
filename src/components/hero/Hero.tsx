@@ -5,7 +5,7 @@ import { mdiArrowRight, mdiPlay } from "@mdi/js";
 
 export default function Hero() {
   return (
-    <section className="h-64 md:h-96 lg:h-128 group relative ">
+    <section className="h-96 lg:h-128 group relative ">
       <Image src={batman} alt="batman" className="h-full w-full object-cover" />
       <div className="absolute bottom-0 w-full bg-gradient-to-b from-transparent to-black">
         <div className="container pl-10 lg:pl-0">

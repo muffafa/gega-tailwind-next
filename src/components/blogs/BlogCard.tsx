@@ -1,5 +1,4 @@
 import Image, { StaticImageData } from "next/image";
-import user1 from "../../../public/userava1.jpg";
 import Icon from "@mdi/react";
 import { mdiCommentOutline, mdiHeartOutline } from "@mdi/js";
 import { NextPage } from "next";

@@ -1,9 +1,9 @@
-import mv1 from "../../../../public/mv1.jpg";
-import mv2 from "../../../../public/mv2.jpg";
-import mv3 from "../../../../public/mv3.jpg";
-import mv4 from "../../../../public/mv4.jpg";
-import mv5 from "../../../../public/mv5.jpg";
-import mv6 from "../../../../public/mv6.jpg";
+import brake from "../../../../public/brake.jpeg";
+import gearbox from "../../../../public/gearbox.jpeg";
+import speedometre from "../../../../public/speedometer.jpeg";
+import suspension from "../../../../public/suspension.jpeg";
+import engine from "../../../../public/engine.jpeg";
+import paint from "../../../../public/paint.jpeg";
 import Movie from "./Movie";
 
 export default function Movies() {
@@ -11,56 +11,50 @@ export default function Movies() {
     <div>
       <div className="flex space-x-2 divide-x divide-gega-red divide-opacity-50 mb-8 pl-10 lg:pl-0">
         <h2 className="text-gega-red">
-          <a href="#">Latest</a>
-        </h2>
-        <h2 className="text-gega-gray pl-2 hover:text-gega-red duration-500">
-          <a href="#">Popular</a>
-        </h2>
-        <h2 className="text-gega-gray pl-2 hover:text-gega-red duration-500">
-          <a href="#">Best</a>
+          <a href="#">TESTLERİMİZ</a>
         </h2>
       </div>
       <div className="flex flex-wrap">
         <Movie
-          movieName="Oblivion"
+          movieName="FREN TESTİ"
           movieText="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui,mollitia?"
-          moviePhoto={mv1}
+          moviePhoto={brake}
         />
         <Movie
-          movieName="Into The Wild"
+          movieName="ŞANZIMAN TESTİ"
           movieText="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui,mollitia?"
-          moviePhoto={mv2}
+          moviePhoto={gearbox}
         />
         <Movie
-          movieName="MULHOLLAND DRIVE"
+          movieName="HIZ TESTİ"
           movieText="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui,mollitia?"
-          moviePhoto={mv3}
+          moviePhoto={speedometre}
         />
         <Movie
-          movieName="2049"
+          movieName="SÜSPANSİYON TESTİ"
           movieText="Lorem ipsum, dolor sit amet consectetur adipisicing elit."
-          moviePhoto={mv4}
+          moviePhoto={suspension}
         />
         <Movie
-          movieName="The Forest"
+          movieName="MOTOR TESTİ"
           movieText="Lorem ipsum, dolor sit amet consectetur adipisicing elit."
-          moviePhoto={mv5}
+          moviePhoto={engine}
         />
         <Movie
-          movieName="Skyfall"
+          movieName="BOYA TESTİ"
           movieText="Lorem ipsum, dolor sit amet consectetur adipisicing elit."
-          moviePhoto={mv6}
+          moviePhoto={paint}
         />
         <Movie
-          movieName="Oblivion"
+          movieName="FREN TESTİ"
           movieText="Lorem ipsum, dolor sit amet consectetur adipisicing elit."
-          moviePhoto={mv1}
+          moviePhoto={brake}
           specialClassName="hidden md:block lg:hidden"
         />
         <Movie
-          movieName="Into The Wild"
+          movieName="ŞANZIMAN"
           movieText="Lorem ipsum, dolor sit amet consectetur adipisicing elit."
-          moviePhoto={mv2}
+          moviePhoto={gearbox}
           specialClassName="hidden md:block lg:hidden"
         />
       </div>

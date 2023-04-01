@@ -5,13 +5,11 @@ interface Props {
   specialClassName?: string;
   newPhoto: StaticImageData;
   newTitle?: string;
-  newDate?: string;
 }
 
 const New: NextPage<Props> = ({
   specialClassName = "",
   newPhoto,
-  newDate = "ON NOW 01 2022",
   newTitle = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, dignissimos!"
 }) => {
     specialClassName = `flex items-center group basis-3/4 md:basis-1/2 ${specialClassName}`;
@@ -26,9 +24,6 @@ const New: NextPage<Props> = ({
       </div>
       <div className="text-gega-gray basis-2/3 pl-8 group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
         <p className="text-sm">{newTitle}</p>
-        <p className="text-xs tracking-tighter mt-2 font-bold font-gemunuLibre">
-          {newDate}
-        </p>
       </div>
     </div>
   );

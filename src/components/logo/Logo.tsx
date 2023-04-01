@@ -11,7 +11,7 @@ const Logo: NextPage<Props> = ({className = "pl-4 md:pl-0 text-4xl lg:text-6xl "
       href="#"
       className={className}
     >
-      Gega
+      MARKANIZ
     </a>
   );
 }

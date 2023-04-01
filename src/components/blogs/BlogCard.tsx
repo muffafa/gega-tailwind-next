@@ -1,6 +1,4 @@
 import Image, { StaticImageData } from "next/image";
-import Icon from "@mdi/react";
-import { mdiCommentOutline, mdiHeartOutline } from "@mdi/js";
 import { NextPage } from "next";
 
 interface Props {
@@ -26,16 +24,6 @@ const BlogCard: NextPage<Props> = ({like, comment, date, userAvatar, userName, b
     </p>
     <div className="border-t border-gega-red p-4 flex items-center justify-end space-x-4 font-bold font-gemunuLibre text-xs">
       <p className="uppercase">{date}</p>
-      <div className="flex items-center justify-center space-x-2">
-        <div className="flex items-center space-x-1">
-          <Icon path={mdiCommentOutline} size={1} />
-          <p>{comment}</p>
-        </div>
-        <div className="flex items-center space-x-1">
-          <Icon path={mdiHeartOutline} size={1} />
-          <p>{like}</p>
-        </div>
-      </div>
     </div>
   </div>
   );

@@ -14,67 +14,38 @@ export default function Header() {
                 <div className="bg-gega-gray w-8 h-1 rounded-full"></div>
             </div>
         </div>
-        <nav className="hidden md:flex justify-between flex-1">
+        <nav className="hidden md:flex justify-end flex-1">
           <div className="flex items-center lg:text-lg space-x-4 lg:space-x-8">
             <a
               href="#"
               className="hover:text-gega-melon transition duration-500"
             >
-              Movies
+              HİZMETLERİMİZ
             </a>
             <a
               href="#"
               className="hover:text-gega-melon transition duration-500"
             >
-              Celebrities
+              REFERANSLARIMIZ
             </a>
             <a
               href="#"
               className="hover:text-gega-melon transition duration-500"
             >
-              Blog
+              İLETİŞİM
             </a>
             <a
               href="#"
               className="hover:text-gega-melon transition duration-500"
             >
-              News
+              ADRES
             </a>
             <a
               href="#"
               className="hover:text-gega-melon transition duration-500"
             >
-              About
+              HAKKIMIZDA
             </a>
-          </div>
-          <div className="flex items-center space-x-4 lg:space-x-8">
-            <form>
-              <div className="group border-r px-4 mx-4 py-1 border-gega-red">
-                <input
-                  type="text"
-                  className=" opacity-0 group-hover:opacity-100 bg-transparent border-b border-gega-red focus:outline-none  
-                  w-24 lg:w-44 transition duration-500"
-                />
-                <button className="-ml-4 group-hover:ml-0 transition duration-500">
-                  <Icon
-                    path={mdiMagnify}
-                    size={1}
-                    className="group-hover:text-gega-red transition duration-500"
-                  />
-                </button>
-              </div>
-            </form>
-            <div className="flex items-center space-x-4 lg:space-x-8 lg:text-lg">
-              <a href="#">Login</a>
-              <a
-                href="#"
-                className="bg-gega-red px-3 py-1 hover:bg-rose-600
-                cursor-pointer transition duration-500 whitespace-nowrap
-                "
-              >
-                Sign Up
-              </a>
-            </div>
           </div>
         </nav>
       </div>

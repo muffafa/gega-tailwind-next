@@ -7,6 +7,7 @@ export default function Footer(){
                 <div className="basis-1/3">
                     <Logo className="text-2xl lg:text-3xl"/>
                     <p className="text-sm mt-2">2023 ZENCİR SOFTWARE &copy; TÜM HAKLARI SAKLIDIR</p>
+                    <p className="text-sm mt-2">541 891 88 87</p>
                     <p></p>
                 </div>
                 <div className="basis-1/3">
